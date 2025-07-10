@@ -13,8 +13,8 @@ export function Header() {
           <a className="hover:underline" href="#skills">
             Skills
           </a>
-          <a className="hover:underline" href="#portfolio">
-            Portfolio
+          <a className="hover:underline" href="#projects">
+            Projects
           </a>
         </nav>
       </div>

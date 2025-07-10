@@ -7,6 +7,7 @@ import ReactIcon from './assets/icons/react.svg?react';
 import TypescriptIcon from './assets/icons/ts.svg?react';
 
 import { Header } from './components/Header';
+import { Projects } from './components/Projects';
 import { Section } from './components/Section';
 import { Tooltip } from './components/ui/Tooltip';
 
@@ -73,6 +74,10 @@ export function App() {
               </Tooltip>
             </div>
           </div>
+        </Section>
+
+        <Section id="projects" title="Projects">
+          <Projects />
         </Section>
       </main>
     </div>
