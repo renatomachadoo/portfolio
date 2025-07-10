@@ -60,7 +60,7 @@ export function App() {
               </Tooltip>
             </div>
             <div className="h-fit w-full rounded-lg px-8 py-4">
-              <Tooltip text="NodeJS">
+              <Tooltip text="Node.JS">
                 <NodeJSIcon className="h-fit max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>

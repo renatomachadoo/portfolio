@@ -1,6 +1,6 @@
 export function Header() {
   return (
-    <header className="w-full bg-gray-900/20 px-8 py-4">
+    <header className="w-full bg-gray-900/20 px-8 py-4" id="header">
       <div className="container mx-auto flex max-w-5xl items-center justify-between text-base">
         <span className="font-semibold uppercase">Renato Machado</span>
         <nav className="flex items-center justify-center gap-4 text-gray-200">
