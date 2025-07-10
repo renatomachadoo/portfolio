@@ -18,10 +18,10 @@ export function App() {
       <Header />
       <main className="w-full px-8">
         <Section id="about" title="About">
-          <h1 className="text-8xl">
+          <h1 className="text-7xl md:text-8xl">
             Hello, I'm <br /> a Full-stack Developer
           </h1>
-          <p className="max-w-[600px] text-base/7 text-gray-200">
+          <p className="w-full text-gray-200 text-lg/7 md:max-w-[600px]">
             I am a Junior Full Stack Developer with a strong passion for solving
             complex problems and a constant desire to learn and grow. <br />
             <br /> I have hands-on experience with <strong>HTML</strong>,

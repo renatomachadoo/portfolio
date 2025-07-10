@@ -12,7 +12,7 @@ export function Section({ title, children, id }: SectionProps) {
       className="container mx-auto mt-20 flex max-w-5xl flex-col gap-5"
       id={id}
     >
-      <h2 className="text-7xl text-red-400">{title}</h2>
+      <h2 className="text-5xl text-red-400 md:text-7xl">{title}</h2>
       {children}
     </section>
   );
