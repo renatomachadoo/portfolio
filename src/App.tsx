@@ -38,7 +38,7 @@ export function App() {
         </Section>
 
         <Section id="skills" title="Skills">
-          <div className="grid w-full grid-cols-4 gap-4">
+          <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
             <div className="h-fit w-full rounded-lg px-8 py-4">
               <Tooltip text="HTML5">
                 <HtmlIcon className="h-fit max-w-full rounded-2xl object-cover" />
