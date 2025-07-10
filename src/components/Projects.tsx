@@ -12,16 +12,26 @@ export function Projects() {
           disableOnInteraction: true,
           pauseOnMouseEnter: true,
         }}
+        breakpoints={{
+          320: {
+            slidesPerView: 1,
+            spaceBetween: 24,
+          },
+          480: {
+            slidesPerView: 2,
+            spaceBetween: 32,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 40,
+          },
+        }}
         className="h-48"
         loop={true}
         modules={[Autoplay, Pagination]}
         pagination={{
           enabled: true,
-          // bulletActiveClass:
-          // 'swiper-pagination-bullet swiper-pagination-bullet-active bg-red-500',
         }}
-        slidesPerView={3}
-        spaceBetween={50}
       >
         <SwiperSlide className="h-full w-full items-center rounded-2xl bg-gray-700 px-8 py-4">
           Project 1
