@@ -5,6 +5,7 @@ import JavascriptIcon from './assets/icons/js.svg?react';
 import NodeJSIcon from './assets/icons/nodejs.svg?react';
 import ReactIcon from './assets/icons/react.svg?react';
 import TypescriptIcon from './assets/icons/ts.svg?react';
+import { Footer } from './components/Footer';
 
 import { Header } from './components/Header';
 import { Projects } from './components/Projects';
@@ -80,6 +81,7 @@ export function App() {
           <Projects />
         </Section>
       </main>
+      <Footer />
     </div>
   );
 }
