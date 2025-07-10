@@ -1,5 +1,14 @@
+import CssIcon from './assets/icons/css.svg?react';
+import FigmaIcon from './assets/icons/figma.svg?react';
+import HtmlIcon from './assets/icons/html.svg?react';
+import JavascriptIcon from './assets/icons/js.svg?react';
+import NodeJSIcon from './assets/icons/nodejs.svg?react';
+import ReactIcon from './assets/icons/react.svg?react';
+import TypescriptIcon from './assets/icons/ts.svg?react';
+
 import { Header } from './components/Header';
 import { Section } from './components/Section';
+import { Tooltip } from './components/ui/Tooltip';
 
 export function App() {
   return (
@@ -27,7 +36,43 @@ export function App() {
         </Section>
 
         <Section id="skills" title="Skills">
-          <div className="w-full bg-red-500">Skills</div>
+          <div className="grid w-full grid-cols-4 gap-4">
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="HTML5">
+                <HtmlIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="CSS3">
+                <CssIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="Javascript">
+                <JavascriptIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="Typescript">
+                <TypescriptIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="NodeJS">
+                <NodeJSIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="React.JS">
+                <ReactIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+            <div className="h-fit w-full rounded-lg px-8 py-4">
+              <Tooltip text="Figma">
+                <FigmaIcon className="h-fit max-w-full rounded-2xl object-cover" />
+              </Tooltip>
+            </div>
+          </div>
         </Section>
       </main>
     </div>
