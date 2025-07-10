@@ -19,7 +19,7 @@ export function Tooltip({ children, text }: TooltipProps) {
         <Trigger asChild>{children}</Trigger>
         <Portal>
           <Content
-            className="select-none rounded bg-gray-900 px-4 py-2.5 text-red-400"
+            className="select-none rounded bg-gray-700 px-4 py-2.5 text-red-400"
             sideOffset={5}
           >
             {text}
