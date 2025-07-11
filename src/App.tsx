@@ -14,7 +14,7 @@ import { Tooltip } from './components/ui/Tooltip';
 
 export function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen w-full">
       <Header />
       <main className="w-full px-8">
         <Section id="about" title="About">
