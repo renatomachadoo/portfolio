@@ -39,39 +39,39 @@ export function App() {
 
         <Section id="skills" title="Skills">
           <div className="grid w-full grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4">
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="HTML5">
-                <HtmlIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <HtmlIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="CSS3">
-                <CssIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <CssIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="Javascript">
-                <JavascriptIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <JavascriptIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="Typescript">
-                <TypescriptIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <TypescriptIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="Node.JS">
-                <NodeJSIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <NodeJSIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="React.JS">
-                <ReactIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <ReactIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
-            <div className="h-fit w-full rounded-lg px-8 py-4">
+            <div className="h-auto w-full rounded-lg px-8 py-4">
               <Tooltip text="Figma">
-                <FigmaIcon className="h-fit max-w-full rounded-2xl object-cover" />
+                <FigmaIcon className="h-auto max-w-full rounded-2xl object-cover" />
               </Tooltip>
             </div>
           </div>
